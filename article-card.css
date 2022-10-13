@@ -1,0 +1,61 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #b0a8b999;
+}
+
+.card {
+  max-width: 350px;
+  border-radius: 30px;
+  overflow: hidden;
+ background-image: linear-gradient(to right top, #342a30, #3e333d, #463d4b, #4d4859, #525368, #535d76, #526982, #4f748e, #488199, #418ea0, #3f9ba3, #47a8a2);
+}
+
+.card__img {
+  width: 100%;
+  height: 200px;
+}
+
+.card .body {
+  padding: 20px 30px 20px 20px;
+}
+.card .body__button {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #34a991e4;
+  padding: 3px 6px;
+  border-radius: 10px;
+  color: rgba(255, 255, 255, 0.774);
+  border: 1px solid #34a991e4;
+}
+
+.card .body__heading {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card .body__description {
+  padding-bottom: 30px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.card .author__img {
+  width: 20%;
+  border-radius: 100%;
+  vertical-align: bottom;
+}
+
+.card .author .release {
+  display: inline-block;
+  margin-left: 8px;
+}
+
+.card .author .release .release__name {
+  font-weight: 600;
+}
